@@ -85,14 +85,14 @@ const galleryItemsMarkup = images
 
 galleryContainer.insertAdjacentHTML("beforeend", galleryItemsMarkup);
 
-galleryContainer.addEventListener("click", (event) => {
-  event.preventDefault();
+// galleryContainer.addEventListener("click", (event) => {
+//   event.preventDefault();
 
-  const target = event.target;
-  if (target.nodeName !== "IMG") return;
+//   const target = event.target;
+//   if (target.nodeName !== "IMG") return;
 
-  console.log(target.dataset.source);
-});
+//   console.log(target.dataset.source);
+// });
 
 galleryContainer.addEventListener("click", (event) => {
   event.preventDefault();
